@@ -10,7 +10,7 @@ const config = {
   tagline: "A flexible playground for live editing React components",
   url: "https://formidable.com",
   baseUrl:
-    process.env.VERCEL_ENV === "preview" ? "/" : "/open-source/react-live",
+    process.env.VERCEL_ENV === "preview" ? "/" : "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
@@ -38,7 +38,7 @@ const config = {
           path: "../docs",
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl:
-            "https://github.com/FormidableLabs/react-live/tree/master/website",
+            "https://github.com/srujipat/react-live/tree/master/website",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -72,7 +72,7 @@ const config = {
         },
         items: [
           {
-            href: "https://github.com/FormidableLabs/react-live",
+            href: "https://github.com/srujipat/react-live",
             className: "header-github-link",
             "aria-label": "GitHub Repository",
             position: "right",
